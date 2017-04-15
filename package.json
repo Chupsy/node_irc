@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Chupsy/node_irc.git"
   },
-  "author": "",
+  "author": "Vincent Dufrasnes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chupsy/node_irc/issues"
