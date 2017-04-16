@@ -8,6 +8,4 @@ deployment:
   production:
     branch: master
     commands:
-      - git remote add production ssh://root@79.137.78.160/var/www/node_irc
-      - git push production +master:refs/heads/master
-      - git push production master
+      - ssh root@79.137.78.160 'sh /var/www/node_irc/update.sh'
